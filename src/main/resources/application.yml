@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: g51-assistant-chatbot
+  ai:
+    openai:
+      api-key: ${OPEN_AI_API_KEY}
+    retry:
+      max-attempts: 1
